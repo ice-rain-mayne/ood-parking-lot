@@ -7,3 +7,7 @@ class ParkingStrategy(ABC):
     @abstractmethod
     def find_spot(self, parking_floor: list[ParkingFloor], vehicle: Vehicle) -> ParkingSpot | None:
         pass
+
+class DefaultStrategy(ParkingStrategy):
+    def find_spot(self, parking_floor: list[ParkingFloor], vehicle: Vehicle) -> ParkingSpot | None:
+        pass
