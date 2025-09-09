@@ -1,5 +1,5 @@
-from util import Util
-from vehicle import Vehicle, VehicleSize
+from .util import Util
+from .vehicle import Vehicle, VehicleSize
 
 class ParkingSpot:
     spot_size: VehicleSize

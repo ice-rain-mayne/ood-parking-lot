@@ -1,7 +1,6 @@
-from encodings import undefined
-from parking_spot import ParkingSpot
-from vehicle import Vehicle
-from util import Util
+from .parking_spot import ParkingSpot
+from .vehicle import Vehicle
+from .util import Util
 
 class ParkingTicket:
     spot: ParkingSpot

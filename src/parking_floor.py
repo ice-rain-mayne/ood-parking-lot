@@ -1,6 +1,6 @@
 from typing import Optional
-from parking_spot import ParkingSpot
-from vehicle import Vehicle
+from .parking_spot import ParkingSpot
+from .vehicle import Vehicle
 
 
 class ParkingFloor:
